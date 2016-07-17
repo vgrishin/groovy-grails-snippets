@@ -100,57 +100,57 @@ print parsePhpPost('contacts', params)
 Result:
 
 [
-	contacts: [
-		update: [
-			[
-				id: 32346589, 
-				name: Example, 
-				responsible_user_id: 664584, 
-				date_create: 1467022194, 
-				last_modified: 1467119238, 
-				created_user_id: 664584, 
-				modified_user_id: 664584, 
-				company_name: Example, 
-				linked_company_id: 32346587, 
-				custom_fields: [
-					[
-						id: 916946, 
-						name: Birthday, 
-						values: [
-							[value: 15.06.2016]
-						]
-					], [
-						id: 916948, 
-						name: Price, 
-						values: [
-							[value: 1234]
-						]
-					], [
-						id: 916950, 
-						name: Select, 
-						values: [
-							[
-								value: Value One, 
-								enum: 2218698
-							]
-						]
-					], [
-						id: 916952, 
-						name: Checkbox, 
-						values: [
-							[value: 1]
-						]
-					], [
-						id: 916954, 
-						name: Created, 
-						values: [
-							[value: 15.06.2016]
-						]
-					]
-				], 
-				type: contact
-			]
-		]
-	]
+  contacts: [
+    update: [
+      [
+        id: 32346589, 
+        name: Example, 
+        responsible_user_id: 664584, 
+        date_create: 1467022194, 
+        last_modified: 1467119238, 
+        created_user_id: 664584, 
+        modified_user_id: 664584, 
+        company_name: Example, 
+        linked_company_id: 32346587, 
+        custom_fields: [
+          [
+            id: 916946, 
+            name: Birthday, 
+            values: [
+              [value: 15.06.2016]
+            ]
+          ], [
+            id: 916948, 
+            name: Price, 
+            values: [
+              [value: 1234]
+            ]
+          ], [
+            id: 916950, 
+            name: Select, 
+            values: [
+              [
+                value: Value One, 
+                enum: 2218698
+              ]
+            ]
+          ], [
+            id: 916952, 
+            name: Checkbox, 
+            values: [
+              [value: 1]
+            ]
+          ], [
+            id: 916954, 
+            name: Created, 
+            values: [
+              [value: 15.06.2016]
+            ]
+          ]
+        ], 
+        type: contact
+      ]
+    ]
+  ]
 ]
 */

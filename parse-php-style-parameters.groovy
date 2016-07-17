@@ -1,6 +1,6 @@
 /*
  * PHP can parse POST-parameters like 'contacts[update][0][id]' into objects. 
- * I did not find such parser in groovy/grails, so I have writed my own one.
+ * I did not find such parser in groovy/grails, so I have written my own one.
  * NOTICE: Pass object's name and parser will retrieve this object from params.
  */
 
